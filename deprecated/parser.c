@@ -1,18 +1,15 @@
-
+/*
+*	Legacy:		unstable compression logic! 
+*
+*/
 #include "lexer.h"
 #include "parser.h"
 #include "token.h"
 #define MAX 100
 
-
-
 /*
  *	Token *lexer(const char *buffer, size_t len, int *main_counter)
- *
- *
  */
-
-
 void parser(const char *buffer, size_t len){
 	assert(len > 0);
 	int main_counter = 0;
